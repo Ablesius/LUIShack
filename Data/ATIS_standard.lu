@@ -3,7 +3,7 @@
 > !# @app.name = AtisAppEmpty
 > !# @app.versionId = 0.2 Full Dataset
 > !# @app.culture = en-us
-> !# @app.luis_schema_version = 6.0.0
+> !# @app.luis_schema_version = 3.0.0
 
 
 > # Intent definitions
