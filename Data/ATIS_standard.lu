@@ -12,13 +12,8 @@
 - bos what ground transportation is available from the pittsburgh airport to downtown and how much does it cost
 
 
-@ intent ae
-
 ## ao
 - bos i want to fly from {@fromloc_city_name=detroit} to {@toloc_city_name=st. petersburg} on {@airline_name=northwest airlines} and leave {@depart_time_time_relative=around} {@depart_time_time=9 am} tell me what aircraft are used by this flight and tell me the flight number
-
-
-@ intent ao
 
 ## atis_abbreviation
 - bos code {@airline_code=ff}
@@ -152,9 +147,6 @@
 - bos what's the difference between fare code q and fare code b
 - bos what's the difference between fare code q and fare code f
 
-
-@ intent atis_abbreviation
-
 ## atis_aircraft
 - bos all right would you let me know type of aircraft {@airline_name=united airlines} is using on the flights from {@fromloc_city_name=denver} to {@toloc_city_name=san francisco} i would like to know the type of aircraft that they use on these flights {@depart_time_time_relative=before} {@depart_time_time=10} in the {@depart_time_period_of_day=morning}
 - bos at the {@city_name=charlotte airport} how many different types of aircraft are there for {@airline_name=us air}
@@ -242,9 +234,6 @@
 - bos what's the next smallest plane after a turboprop
 - bos what's the smallest plane flying from {@fromloc_city_name=pittsburgh} to {@toloc_city_name=baltimore} on {@depart_date_month_name=december} {@depart_date_day_number=seventeenth}
 - bos what's the smallest plane that flies from {@fromloc_city_name=pittsburgh} to {@toloc_city_name=baltimore} on {@depart_time_time=eight} sixteen
-
-
-@ intent atis_aircraft
 
 ## atis_airfare
 - bos all fares and flights from {@fromloc_city_name=philadelphia}
@@ -699,20 +688,11 @@
 - bos what's the price of the {@cost_relative=least expensive} {@class_type=first class} {@round_trip=round trip} ticket on {@airline_name=us air} from {@fromloc_city_name=cleveland} to {@toloc_city_name=miami}
 - bos would you tell me the {@cost_relative=cheapest} {@round_trip=one way} fare from {@fromloc_city_name=boston} to {@toloc_city_name=oakland}
 
-
-@ intent atis_airfare
-
 ## atis_airfare__atis_flight
 - bos list the airfare for {@airline_name=american airlines} flight 19 from jfk to lax
 
-
-@ intent atis_airfare__atis_flight
-
 ## atis_airfare__atis_flight_time
 - bos show me the costs and times for flights from {@fromloc_city_name=san francisco} to {@toloc_city_name=atlanta}
-
-
-@ intent atis_airfare__atis_flight_time
 
 ## atis_airline
 - bos airline code {@airline_code=as}
@@ -889,15 +869,9 @@
 - bos which companies fly between {@fromloc_city_name=boston} and {@toloc_city_name=oakland}
 - bos which different airlines go from {@fromloc_city_name=las vegas} to {@toloc_city_name=new york city}
 
-
-@ intent atis_airline
-
 ## atis_airline__atis_flight_no
 - bos airline and flight number from {@fromloc_city_name=columbus} to {@toloc_city_name=minneapolis}
 - bos may i please see airlines and flight numbers from {@fromloc_city_name=new york} to {@toloc_city_name=toronto} on the same date {@depart_date_month_name=june} {@depart_date_day_number=seventeenth} also arriving in {@toloc_city_name=toronto} {@arrive_time_time_relative=before} {@arrive_time_time=noon} thank you
-
-
-@ intent atis_airline__atis_flight_no
 
 ## atis_airport
 - bos airports
@@ -931,9 +905,6 @@
 - bos what's the name of the denver airport
 - bos where do the flights from {@fromloc_city_name=boston} to {@toloc_city_name=oakland} {@flight_stop=stop}
 - bos which airport is closest to {@city_name=ontario} california
-
-
-@ intent atis_airport
 
 ## atis_capacity
 - bos how many passengers can a boeing 737 hold
@@ -974,14 +945,8 @@
 - bos what's the capacity of a 733
 - bos what's the capacity of an f28
 
-
-@ intent atis_capacity
-
 ## atis_cheapest
 - bos show me the {@cost_relative=cheapest} fare in the database
-
-
-@ intent atis_cheapest
 
 ## atis_city
 - bos are there any other cities that i can fly from {@fromloc_city_name=boston} to {@toloc_city_name=dallas} through that i can get a flight {@depart_time_time_relative=earlier} than {@depart_time_time=1017} in the {@depart_time_period_of_day=morning}
@@ -1008,15 +973,9 @@
 - bos which cities are serviced by both {@airline_name=american} and {@airline_name=delta airlines}
 - bos which cities does {@airline_name=united airlines} service
 
-
-@ intent atis_city
-
 ## atis_day_name
 - bos what day of the week do flights from {@fromloc_city_name=nashville} to {@toloc_city_name=tacoma} fly on
 - bos what days of the week do flights from {@fromloc_city_name=san jose} to {@toloc_city_name=nashville} fly on
-
-
-@ intent atis_day_name
 
 ## atis_distance
 - bos how far from the airport in the dallas fort worth airport is {@fromloc_city_name=dallas}
@@ -1049,9 +1008,6 @@
 - bos what is the distance from los angeles international airport to {@toloc_city_name=los angeles}
 - bos what is the distance from san francisco international airport to {@toloc_city_name=san francisco}
 - bos what is the distance from toronto international airport to {@toloc_city_name=toronto}
-
-
-@ intent atis_distance
 
 ## atis_flight
 - bos {@depart_time_time=630 am} flight on {@depart_date_month_name=august} {@depart_date_day_number=twenty seventh} from {@fromloc_city_name=atlanta} to {@toloc_city_name=dallas}
@@ -5090,9 +5046,6 @@
 - bos yes on the {@airline_name=delta} flight leaving {@fromloc_city_name=san francisco} at {@depart_time_time=225 pm} arriving {@toloc_city_name=philadelphia} {@arrive_time_time=1158 pm} what type of equipment is used on that flight
 - bos yes what flights will be used on {@depart_date_month_name=july} {@depart_date_day_number=seventh} in the {@depart_time_period_of_day=morning} from {@fromloc_city_name=atlanta} to {@toloc_city_name=boston}
 
-
-@ intent atis_flight
-
 ## atis_flight__atis_airfare
 - bos again i will repeat i want to make a {@round_trip=one way} flight from {@fromloc_city_name=boston} to {@toloc_city_name=atlanta} will you tell me how much the fares are i would like the {@cost_relative=cheapest} fare
 - bos all flights and fares from {@fromloc_city_name=atlanta} to {@toloc_city_name=dallas} {@round_trip=round trip} {@depart_time_time_relative=after} {@depart_time_time=12 pm} {@cost_relative=less} than 1100 dollars
@@ -5124,9 +5077,6 @@
 - bos what are the flights and fares from {@fromloc_city_name=atlanta} to {@toloc_city_name=philadelphia}
 - bos what are the flights and fares from {@fromloc_city_name=boston} to {@toloc_city_name=philadelphia}
 
-
-@ intent atis_flight__atis_airfare
-
 ## atis_flight_no
 - bos flight number from {@fromloc_city_name=dallas} to {@toloc_city_name=houston}
 - bos flight number from {@fromloc_city_name=houston} to {@toloc_city_name=dallas}
@@ -5148,9 +5098,6 @@
 - bos what is the flight number of the {@flight_mod=earliest} flight between {@fromloc_city_name=boston} and {@toloc_city_name=washington} dc
 - bos what is the number of {@class_type=first class} flights on {@airline_name=american airlines}
 - bos which is the flight number for the {@airline_name=us air} flight from {@fromloc_city_name=philadelphia} to {@toloc_city_name=boston} is it 279 or is it 137338
-
-
-@ intent atis_flight_no
 
 ## atis_flight_time
 - bos all right give me the flight times in the {@depart_time_period_of_day=morning} on {@depart_date_month_name=september} {@depart_date_day_number=twentieth} from {@fromloc_city_name=pittsburgh} to {@toloc_city_name=san francisco}
@@ -5207,9 +5154,6 @@
 - bos what's the schedule of flights from {@fromloc_city_name=atlanta} to {@toloc_city_name=boston} on {@depart_date_month_name=august} {@depart_date_day_number=first}
 - bos when does {@airline_name=continental} fly from {@fromloc_city_name=philadelphia} to {@toloc_city_name=denver} on {@depart_date_day_name=sundays}
 
-
-@ intent atis_flight_time
-
 ## atis_ground_fare
 - bos can you list costs of {@city_name=denver} rental cars
 - bos how expensive is the {@city_name=san francisco} limousine service
@@ -5235,9 +5179,6 @@
 - bos what price is a limousine service in {@city_name=boston}
 - bos what price is a limousine service to {@fromloc_city_name=new york's} la guardia
 - bos what's the fare for a taxi to {@city_name=denver}
-
-
-@ intent atis_ground_fare
 
 ## atis_ground_service
 - bos and how can i get to the boston airport from downtown {@fromloc_city_name=boston}
@@ -5510,9 +5451,6 @@
 - bos what's the ground transportation like at {@city_name=pittsburgh}
 - bos while i'm in {@city_name=pittsburgh} what ground transportation is available
 
-
-@ intent atis_ground_service
-
 ## atis_meal
 - bos are meals ever served on {@airline_name=tower air}
 - bos are snacks served on {@airline_name=tower air}
@@ -5526,9 +5464,6 @@
 - bos what meals are served on {@airline_name=american} flight 811 from {@fromloc_city_name=tampa} to {@toloc_city_name=milwaukee}
 - bos what meals are there on flight 382 from {@fromloc_city_name=milwaukee} to {@toloc_city_name=washington} dc on {@depart_date_day_name=tuesday} {@depart_time_period_of_day=morning}
 - bos what types of meals are available
-
-
-@ intent atis_meal
 
 ## atis_quantity
 - bos how many airlines fly from {@fromloc_city_name=new york} to {@toloc_city_name=los angeles} by way of {@stoploc_city_name=milwaukee}
@@ -5584,9 +5519,6 @@
 - bos list the total number of flights to all airports by {@airline_name=delta}
 - bos please tell me how many {@flight_stop=nonstop} flights there are from {@fromloc_city_name=boston} to {@toloc_city_name=atlanta}
 
-
-@ intent atis_quantity
-
 ## atis_restriction
 - bos what are the air restrictions on flights from {@fromloc_city_name=pittsburgh} to {@toloc_city_name=atlanta} for the airfare of 416 dollars
 - bos what are the restrictions on the {@cost_relative=cheapest} {@round_trip=one way} fare between {@fromloc_city_name=boston} and {@toloc_city_name=oakland}
@@ -5594,19 +5526,10 @@
 - bos what is restriction ap80
 - bos what's restriction ap68
 
-
-@ intent atis_restriction
-
 ## B-arrive_time_period_of_day
 - bos i want to fly from boston {@fromloc_city_name=at} 838 {@depart_time_time=am and} arrive in denver {@toloc_city_name=at} 1110 {@arrive_time_time=in} the morning
 
-
-@ intent B-arrive_time_period_of_day
-
 ## None
-
-
-@ intent None
 
 > # Entity definitions
 
